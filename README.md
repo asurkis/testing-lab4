@@ -55,7 +55,13 @@
      max response time:    990 ms
     ```
 
+#### Нагрузочное тестирование:
+![](load1/throughput.png)
+![](load1/response.png)
 
+#### Стресс-тестирование:
+![](stress1/throughput.png)
+![](stress1/response.png)
 
 ### Конфигурация 2 ($4400):
 - Перестает отвечать требованияим по задержке при 34 пользователях.
@@ -67,6 +73,14 @@
      max response time:    990 ms
     ```
 
+#### Нагрузочное тестирование:
+![](load2/throughput.png)
+![](load2/response.png)
+
+#### Стресс-тестирование:
+![](stress2/throughput.png)
+![](stress2/response.png)
+
 ### Конфигурация 3 ($7200):
 - Перестает отвечать требованияим по задержке при 43 пользователях.
 - При постепенном наращивании нагрузки возвращает 503 при 208 пользователях.
@@ -76,6 +90,14 @@
          response time:   2796 ms
      max response time:    990 ms
     ```
+
+#### Нагрузочное тестирование:
+![](load3/throughput.png)
+![](load3/response.png)
+
+#### Стресс-тестирование:
+![](stress3/throughput.png)
+![](stress3/response.png)
 
 ## Вывод
 
